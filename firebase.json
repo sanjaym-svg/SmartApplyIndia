@@ -1,16 +1,1 @@
-{
-    "hosting": {
-        "public": "build/web",
-        "ignore": [
-            "firebase.json",
-            "**/.*",
-            "**/node_modules/**"
-        ],
-        "rewrites": [
-            {
-                "source": "**",
-                "destination": "/index.html"
-            }
-        ]
-    }
-}
+{"hosting":{"public":"build/web","ignore":["firebase.json","**/.*","**/node_modules/**"],"rewrites":[{"source":"**","destination":"/index.html"}]},"flutter":{"platforms":{"android":{"default":{"projectId":"smartapplyindia-ai","appId":"1:668955659055:android:4475d877801c3ec569efda","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"smartapplyindia-ai","configurations":{"android":"1:668955659055:android:4475d877801c3ec569efda","ios":"1:668955659055:ios:749c368d1a9732fc69efda","web":"1:668955659055:web:095c324bf43ba66069efda"}}}}}}
